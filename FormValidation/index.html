@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script
+      src="https://kit.fontawesome.com/bb5868493e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+        
+      <form class="formContainer">
+        <i class="fa-solid fa-paper-plane" id="img"></i>
+        <div class="inputGroup">
+            <label>Full Name:</label>
+            <input type="text" id="fullName" placeholder="Enter your Name"    />
+            <span id="nameError"></span>
+        </div>
+        <div class="inputGroup">
+            <label>Phone No.:-</label>
+        <input type="tel" id="phoneNumber" placeholder="123-456-7890"  />
+        <span id="phoneError"></span>
+        </div>
+        <div class="inputGroup">
+            <label>Email:</label>
+          <input type="username" id="userName"  placeholder="Enter your Mail"  />
+          <span id="mailError"></span>
+        </div>
+        <div class="inputGroup">
+            <label>Your Message:</label>
+            <textarea rows="5"  id="message" placeholder="write your message" ></textarea>
+            <span id="messageError"></span>
+        </div>
+        <button type="submit" id="bt1">Submit</button>
+        <span id="error"></span>
+      </form>
+    </div>
+  </body>
+  <script src="form.js"></script>
+</html>
