@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Currency Convertor</title>
+    <link rel="stylesheet" href="CC.css">
+    <script src="https://kit.fontawesome.com/bb5868493e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2> Currency Convertor</h2>
+      <form>
+        
+        <div class="amount">
+            <p> Enter Amount</p>
+            <input value="" type="text" placeholder="$only USD">
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>from</p>
+            <div class="select-container">
+                <img src="https://flagsapi.com/US/flat/64.png" height="25" width="25">
+                <select name="from">
+                  <option>USD</option>
+                </select>
+            </div>
+          </div>
+          <i class="fa-solid fa-right-left"></i>
+          <div class="to">
+            <p>to</p>
+            <div class="select-container">
+                <img src="https://flagsapi.com/IN/flat/64.png" height="25" width="25">
+                <select name="to">
+                </select>
+            </div>
+
+          </div>
+        </div>
+        <div class="msg">1USD = 83INR </div>
+          <p id="note">2023 Exchange Rate</p>
+       
+        <button>Exchange Rate</button>
+    </form>
+    </div>
+</body>
+<script src="countryCode.js"></script>
+<script src="CC.js"></script>
+
+</html> 
+    
