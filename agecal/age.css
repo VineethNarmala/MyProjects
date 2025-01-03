@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    border:0;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    background-color: black;
+    color:azure;
+    padding:50px 100px 50px;
+    
+
+}
+.ageCalculator{
+    width:300px;
+    height:400px;
+    background-color: burlywood;
+    padding: 50px;
+    border-radius: 25px;
+}
+h1{
+    margin-bottom:40px;
+    color: rgb(5, 64, 66);
+    font-size:30px;
+    font-weight:800;
+}
+#p1{
+    margin-top:-20px;
+    color:rgb(17, 80, 197);
+    font-weight:600;
+}
+.dob{
+    margin-top: 20px;
+ margin-bottom: 10px;
+
+}
+.toDayDate{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dob input{
+width:100%;
+height:25px;
+padding:10px;
+font-size:15px;
+}
+.toDayDate input{
+    width:100%;
+    height:25px;
+    padding:10px;
+    font-size:15px;
+   
+}
+#bt1{
+    width:50%;
+    height:25px;
+    border-radius: 25px;
+    background-color: cadetblue;
+    font-size:15px;
+    color: beige;
+    cursor: pointer;
+    padding:5px;
+    margin:10px 20px 25px;
+}
+#p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    display:none;
+}
