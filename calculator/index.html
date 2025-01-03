@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script
+      src="https://kit.fontawesome.com/bb5868493e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="all">
+          <i class="fa-solid fa-list"></i>
+        </div>
+        <div class="display"></div>
+        <div class="steps">
+          <div class="step1">
+            <div class="cancel" data-value="cal">
+              <i class="fa-solid fa-delete-left"></i>
+            </div>
+            <div class="log">
+              <p>log</p>
+            </div>
+            <div class="operator" data-value="%">
+              <i class="fa-solid fa-divide"></i>
+            </div>
+            <div class="operator" data-value="*">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+          <div class="step1">
+            <div class="num" data-value="7">
+              <p>7</p>
+            </div>
+            <div class="num" data-value="8">
+              <p>8</p>
+            </div>
+            <div class="num" data-value="9">
+              <p>9</p>
+            </div>
+            <div class="operator" data-value="/">
+              <i class="fa-solid fa-divide"></i> 
+            </div>
+          </div>
+          <div class="step1">
+            <div class="num" data-value="4">
+              <p>4</p>
+            </div>
+            <div class="num" data-value="5">
+              <p>5</p>
+            </div>
+            <div class="num" data-value="6">
+              <p>6</p>
+            </div>
+            <div class="operator" data-value="+">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="step1">
+            <div class="num" data-value="1">
+              <p>1</p>
+            </div>
+            <div class="num" data-value="2">
+              <p>2</p>
+            </div>
+            <div class="num" data-value="3">
+              <p>3</p>
+            </div>
+            <div class="operator" data-value="-">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+          </div>
+          <div class="step1">
+            <div class="logo">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <div class="num" data-value="0">
+              <p>0</p>
+            </div>
+            <div class="num" data-value=".">
+              <p>.</p>
+            </div>
+            <div class="equals" data-value="=">
+              <i class="fa-solid fa-equals"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="cal.js"></script>
+</html>
