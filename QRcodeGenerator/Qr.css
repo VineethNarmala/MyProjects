@@ -31,9 +31,38 @@ body {
     border-radius: 10px;
     padding:10px;
 }
-img{
-    margin: 25px 70px 25px;
+.qrCode input.shake{
+  animation:shake 0.3s;
+  border: 2px red solid;
+
 }
+@keyframes shake{
+  0% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+}
+.qrimage{
+    width: 150px;
+     max-height:0;
+    margin:10px 60px 10px;
+    overflow: hidden;
+    padding:5px;
+    transition:max-height 2s;
+    /* background-color: brown; */
+    /* border: 1px black solid; */
+}
+img{
+    width:140px;
+    padding: 5px;
+}
+.qrimage.urlImg{
+      width: 150px;
+      max-height:150px;
+      margin:10px 60px 2px;
+      border:1px black solid;
+}   
 #bt1{
     width:200px;
     height:25px;
