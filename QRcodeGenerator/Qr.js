@@ -31,5 +31,7 @@ async function QrCode(data) {
 
 button.addEventListener("click", () => {
   const inputBox = document.querySelector(".qrCode input").value;
-  QrCode(inputBox);
+  
+    QrCode(inputBox);
+   
 });
