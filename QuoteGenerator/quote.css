@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(15, 13, 13);
+}
+.quoteBox {
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 10px 0px rgb(244, 230, 230);
+}
+.quoteBox h2 {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.quoteBox h2::after {
+  content: " ";
+  width: 100px;
+  height: 3px;
+  background-color: rgb(61, 177, 227);
+  border-radius: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 40%;
+}
+.quoteBox blockquote {
+  font-size: 20px;
+  min-height: 100px;
+  margin-top: 20px;
+}
+.quoteBox blockquote::before,
+.quoteBox blockquote::after {
+  content: '"';
+}
+.quoteBox span {
+  display: block;
+  float: right;
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+}
+.quoteBox span::before {
+  content: " ";
+  width: 25px;
+  height: 3px;
+  background-color: rgb(61, 177, 227);
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: -40%;
+}
+.buttons {
+ 
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+}
+.buttons #bt1 {
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  border: 1px black solid;
+  padding: 5px;
+  background-color: rgb(36, 119, 221);
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.buttons #bt2 {
+  width: 120px;
+  height:50px;
+  align-items: center;
+  font-size: 20px;
+  border: 1px rgb(19, 159, 229) solid;
+  background-color: white;
+  justify-content: center;
+  border-radius: 25px;
+  text-align: center;
+  color: rgb(57, 130, 214);
+}
+.buttons i {
+  font-size: 25px;
+  margin-right: 5px;
+}
